@@ -39,10 +39,9 @@ PACKAGE_NAME=${ENTITY_PLURAL,,}
 
 # Directories
 PROJECTDIR=C:/workspace-back/concep-back/src/main/java/com/quantumstudio/concep
-PROJECTDIR_TESTS=$PROJECTDIR/integration/${PACKAGE_NAME,,}
-WORKDIR=c:/scripts/crud
-TEMPLATES_DIR=$WORKDIR/templates
-TEST_TEMPLATES_DIR=$WORKDIR/test-templates
+PROJECTDIR_TESTS=C:/workspace-back/concep-back/src/test/java/com/quantumstudio/concep/integration/${PACKAGE_NAME,,}
+TEMPLATES_DIR=./templates
+TEST_TEMPLATES_DIR=./test-templates
 
 # Files
 CONTROLLER_FILE=$TEMPLATES_DIR/controller.java
